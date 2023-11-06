@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Swap{
+    public static void swap(){
+        int a,b;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the first element");
+        a=sc.nextInt();
+        System.out.println("Enter the second element");
+        b=sc.nextInt();
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println("After swapping the first element"a);
+        System.out.println("After swapping the second number"b;);
+    }
+    public static void main(String[] args){
+        swap();
+    }
+}
